@@ -38,6 +38,7 @@ public class Seek : SteeringBehavior
         }
 
         // give full acceleration along this direction
+        result.linear.y = 0;
         result.linear.Normalize();
         result.linear *= maxAcceleration;
 

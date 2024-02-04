@@ -207,6 +207,6 @@ MonoBehaviour:
   linearVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
   maxSpeed: 1
-  maxAngularVelocity: 45
+  maxAngularVelocity: 200
   myTarget: {fileID: 0}
   myTargets: []

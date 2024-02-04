@@ -26,6 +26,7 @@ public class Pursuer : Kinematic
         myFleeRotateType = new LookWhereGoing();
         myFleeRotateType.character = this;
         myFleeRotateType.target = myTarget;
+		myFleeRotateType.maxRotation = maxAngularVelocity;
     }
 
     // Update is called once per frame

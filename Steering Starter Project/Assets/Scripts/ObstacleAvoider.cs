@@ -16,6 +16,7 @@ public class ObstacleAvoider : Kinematic
 
         myRotateType = new LookWhereGoing();
         myRotateType.character = this;
+		myRotateType.maxRotation = maxAngularVelocity;
     }
 
     // Update is called once per frame
