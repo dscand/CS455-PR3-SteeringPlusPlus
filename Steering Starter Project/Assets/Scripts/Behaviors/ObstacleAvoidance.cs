@@ -8,7 +8,7 @@ public class ObstacleAvoidance : Seek
     float avoidDistance = 2f;
 
     // The distance to look ahead for a collision
-    float lookahead = 4f;
+    float lookahead = 8f;
 
     public override SteeringOutput getSteering()
     {
